@@ -96,11 +96,11 @@ async function connectToWA() {
       console.log("DARK-NOVA-XMD connected to whatsapp ✅");
 
       let up = `DARK-NOVA-XMD connected successful ✅`;
-      let up1 = `Hello Robin, I made bot successful`;
+      let up1 = `Hello DARK-NOVA-XMD, I made bot successful`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20cs.jpg`,
+          url: `https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true`,
         },
         caption: up,
       });
