@@ -28,6 +28,7 @@ const util = require("util");
 const { sms, downloadMediaMessage } = require("./lib/msg");
 const axios = require("axios");
 const { File } = require("megajs");
+const prefix = config.PREFIX;
 
 const ownerNumber = config.OWNER_NUM;
 
@@ -52,13 +53,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-  //mongo connect
-  const connectDB = require("./lib/mongodb");
-  connectDB();
-  //=======================
-  const { readEnv } = require("./lib/database");
-  const config = await readEnv();
-  const prefix = config.PREFIX;
+
   //===========================
 
   console.log("Connecting DARK-NOVA-XMD");
@@ -100,13 +95,13 @@ async function connectToWA() {
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true`,
+          url: `https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/WhatsApp%20Image%202025-08-15%20at%2017.22.03_c520eb7b.jpg?raw=true`,
         },
         caption: up,
       });
       robin.sendMessage("94752978237@s.whatsapp.net", {
         image: {
-          url: `background-image: url('https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true'); /* Update with your desired background image */`,
+          url: `background-image: url('https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/WhatsApp%20Image%202025-08-15%20at%2017.22.03_c520eb7b.jpg?raw=true'); /* Update with your desired background image */`,
         },
         caption: up1,
       });
