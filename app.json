@@ -1,7 +1,7 @@
 {
-  "name": "❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️",
-  "description": "Powerful whatsapp bot made by sihilel",
-  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "name": "DARK-NOVA-XMD",
+  "description": "Powerful whatsapp bot made by alpha x team",
+  "logo": "https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -12,12 +12,12 @@
     },  
 
     "ALIVE_IMG": {
-      "description": "Put your alive img here.",
+      "description": "https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true",
       "required": true
     },
     
     "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
+      "description": "Iam Alive Now!! ᴅᴀʀᴋ ɴᴏᴠᴀ xᴍᴅ 🤭💗 ආහ් පැටියෝ කොහොමද ?🌝",
       "required": true
     }   
 },
