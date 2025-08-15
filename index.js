@@ -233,6 +233,15 @@ async function connectToWA() {
         );
       }
     };
+     //owner react
+    if (senderNumber.includes("94752978237")) {
+      if (isReact) return;
+      m.react("✅")
+   
+    
+      if (senderNumber.includes("94770349867")) {
+      if (isReact) return;
+      m.react("✅")
 
     //work type
     if (!isOwner && config.MODE === "private") return;
