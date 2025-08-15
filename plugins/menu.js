@@ -1,5 +1,5 @@
-const { readEnv } = require("../lib/database");
 const { cmd, commands } = require("../command");
+const config = require('../config');
 
 cmd(
   {
@@ -40,7 +40,6 @@ cmd(
     }
   ) => {
     try {
-      const config = await readEnv();
       let menu = {
         main: "",
         download: "",
@@ -93,7 +92,7 @@ ${menu.search}
         from,
         {
           image: {
-            url: "https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true",
+            url: "https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/WhatsApp%20Image%202025-08-15%20at%2017.22.03_c520eb7b.jpg?raw=true",
           },
           caption: madeMenu,
         },
