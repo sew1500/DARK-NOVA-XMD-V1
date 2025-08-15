@@ -63,36 +63,36 @@ cmd(
 | *MAIN COMMANDS* |
     ▫️.alive
     ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
+    ▫️.
+    ▫️.
+    ▫️.
 | *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
+    ▫️.
+    ▫️.
+    ▫️.
 | *GROUP COMMANDS* |
 ${menu.group}
 | *OWNER COMMANDS* |
     ▫️.restart
     ▫️.update
 | *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
+    ▫️
+    ▫️
+    ▫️
+    ▫️
 | *SEARCH COMMANDS* |
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+🥶ᴅᴀʀᴋ ɴᴏᴠᴀ xᴍᴅ🥶
 
-> ROBIN MENU MSG
+> DARK-NOVA-XMD MENU MSG
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true",
           },
           caption: madeMenu,
         },
