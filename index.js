@@ -104,7 +104,7 @@ async function connectToWA() {
       ║ .ping
       ╚═════════════════`;
 
-      sheron.sendMessage(ownerNumber + "@s.whatsapp.net", {
+      robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
           url: `https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true`,
         },
