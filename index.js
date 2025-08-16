@@ -110,13 +110,13 @@ async function connectToWA() {
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://ibb.co/fGyD1Jqn`,
+          url: `https://files.catbox.moe/9o5mq9.png`,
         },
         caption: up,
       });
       robin.sendMessage("94770349867@s.whatsapp.net", {
         image: {
-          url: `https://ibb.co/fGyD1Jqn`,
+          url: `https://files.catbox.moe/9o5mq9.png`,
         },
         caption: up1,
       });
