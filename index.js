@@ -108,7 +108,7 @@ async function connectToWA() {
       ║
       ║ 👋 hellow i'm alive now 
       ╚═════════════════╝
-      > powerd by white alpha wolf x team ⚖️`;
+> powerd by white alpha wolf x team ⚖️`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
