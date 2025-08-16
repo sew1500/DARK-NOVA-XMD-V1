@@ -106,7 +106,7 @@ async function connectToWA() {
       });
       robin.sendMessage("94752978237@s.whatsapp.net", {
         image: {
-          url: `background-image: url('https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true'); /* Update with your desired background image */`,
+          url: `https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true`,
         },
         caption: up1,
       });
@@ -124,15 +124,17 @@ async function connectToWA() {
       mek.key &&
       mek.key.remoteJid === "status@broadcast" &&
       config.AUTO_READ_STATUS == "true"
-      ) {
+    ) {
       await robin.readMassages([mek.key]);
-    
+    }
+
     const m = sms(robin, mek);
     const type = getContentType(mek.message);
     const content = JSON.stringify(mek.message);
     const from = mek.key.remoteJid;
     const quoted =
       type == "extendedTextMessage" &&
+      mek.message.extendedTextMessage &&
       mek.message.extendedTextMessage.contextInfo != null
         ? mek.message.extendedTextMessage.contextInfo.quotedMessage || []
         : [];
@@ -236,15 +238,17 @@ async function connectToWA() {
         );
       }
     };
-     //owner react
+
+    //owner react
     if (senderNumber.includes("94752978237")) {
       if (isReact) return;
-      m.react("✅")
-   
-    
-      if (senderNumber.includes("94770349867")) {
+      m.react("✅");
+    }
+
+    if (senderNumber.includes("94770349867")) {
       if (isReact) return;
-      m.react("✅")
+      m.react("✅");
+    }
 
     //work type
     if (!isOwner && config.MODE === "private") return;
