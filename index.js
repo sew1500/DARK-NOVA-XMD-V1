@@ -96,15 +96,21 @@ async function connectToWA() {
       console.log("DARK-NOVA-XMD connected to whatsapp ✅");
 
       let up = `DARK-NOVA-XMD connected successful ✅`;
-      let up1 = `Hello DARK-NOVA-XMD, I made bot successful`;
+      let up1 = `⚖️DARK-NOVA-XMD MAIN MENU⚖️
+      ╔════════════════════════════════╗
+      ║ fb download .fb
+      ║ Alive msg .alive
+      ║ .tts
+      ║ .ping
+      ╚═════════════════`;
 
-      robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
+      sheron.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
           url: `https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true`,
         },
         caption: up,
       });
-      robin.sendMessage("94752978237@s.whatsapp.net", {
+      robin.sendMessage("94770349867@s.whatsapp.net", {
         image: {
           url: `https://github.com/dula9x/DARK-NOVA-XMD-V1-WEB-PAIR/blob/main/images/%E1%B4%85%E1%B4%80%CA%80%E1%B4%8B%20%C9%B4%E1%B4%8F%E1%B4%A0%E1%B4%80%20x%E1%B4%8D%E1%B4%85.png?raw=true`,
         },
@@ -240,11 +246,11 @@ async function connectToWA() {
     };
 
     //owner react
-if (senderNumber.includes("94752978237")) {
+if (senderNumber.includes("94770349867")) {
   if (isReact) return;
   await robin.sendMessage(from, {
     react: {
-      text: "✅",
+      text: "⚖️",
       key: mek.key
     }
   });
@@ -254,7 +260,7 @@ if (senderNumber.includes("94770349867")) {
   if (isReact) return;
   await robin.sendMessage(from, {
     react: {
-      text: "✅",
+      text: "⚖️",
       key: mek.key
     }
   });
@@ -421,7 +427,7 @@ if (senderNumber.includes("94770349867")) {
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, DARK-NOVA-XMD started✅");
+  res.send("DARK-NOVA-XMD successful connected ✅");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
