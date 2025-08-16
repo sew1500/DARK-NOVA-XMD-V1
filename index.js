@@ -100,10 +100,12 @@ async function connectToWA() {
       ╔═════════════════╗
       ║ owner : sheron elijah 👨‍💻
       ║ co owner : dulina nethmira 🧑‍💻
-      ║ join our whatsapp channel 🧚‍♂️
+      ║ join our whatsapp channel
       ║[ https://whatsapp.com/channel/0029Vb9yA9K9sBI799oc7U2T]
+      ║
       ║github 🧚‍♂️
       ║https://github.com/dula9x/DARK-NOVA-XMD-V1
+      ║
       ║ 👋 hellow i'm alive now 
       ╚═════════════════╝
       > powerd by white alpha wolf x team ⚖️`;
