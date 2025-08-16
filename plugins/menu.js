@@ -8,14 +8,16 @@ module.exports = {
     try {
       const menuText = `
 *🤖 DARK-NOVA-XMD MENU 🤖*
-
-📌 Main Commands
-- .menu / .help   → Show this menu
-- .alive          → Bot status
-
-📥 Downloaders
-- .fb <url>       → Facebook video downloader
-
+╔════════════════════
+║📌 Main Commands
+║- .menu / .help   → Show this menu
+║- .alive          → Bot status
+╚════════════════════
+╔════════════════════
+║📥 Downloaders
+║- .fb <url>       → Facebook video downloader
+╚════════════════════
+> POWERD by WHITE ALPHA WOLF X TEAM 
 ( Add more commands here… )
       `;
 
