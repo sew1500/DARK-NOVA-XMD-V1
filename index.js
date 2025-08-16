@@ -96,13 +96,17 @@ async function connectToWA() {
       console.log("DARK-NOVA-XMD connected to whatsapp ✅");
 
       let up = `DARK-NOVA-XMD connected successful ✅`;
-      let up1 = `⚖️DARK-NOVA-XMD MAIN MENU⚖️
-      ╔════════════════════════════════╗
-      ║ fb download .fb
-      ║ Alive msg .alive
-      ║ .tts
-      ║ .ping
-      ╚═════════════════`;
+      let up1 = `DARK-NOVA-XMD SUCCESSFULY CONECTED 🎉
+      ╔═════════════════╗
+      ║ owner : sheron elijah 👨‍💻
+      ║ co owner : dulina nethmira 🧑‍💻
+      ║ join our whatsapp channel 🧚‍♂️
+      ║[ https://whatsapp.com/channel/0029Vb9yA9K9sBI799oc7U2T]
+      ║github 🧚‍♂️
+      ║https://github.com/dula9x/DARK-NOVA-XMD-V1
+      ║ 👋 hellow i'm alive now 
+      ╚═════════════════╝
+      > powerd by white alpha wolf x team ⚖️`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
